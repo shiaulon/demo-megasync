@@ -6,7 +6,7 @@ Uma demonstração pública e interativa do **MegaSync EMP**, plataforma de gest
 
 **[Abrir a demonstração online](https://megasyncpitch-demo.web.app/)**
 
-> A demo usa somente dados fictícios, não exige login e não se conecta ao ambiente de produção. As interações são locais e reiniciadas ao atualizar a página.
+> A demo é um build Flutter criado a partir do projeto MegaSync. Usa somente dados fictícios, não exige login e não inicializa Firebase, portanto não lê nem altera o ambiente de produção.
 
 ## Visão geral
 
@@ -45,5 +45,6 @@ flowchart LR
 
 Este é um **repositório de apresentação**. O código-fonte proprietário do produto e o código de publicação da demo não fazem parte do repositório público. Aqui ficam apenas documentação e imagens autorizadas para portfólio.
 
-Desenvolvido por [Shiau Lon](https://github.com/shiaulon).
+O build demonstrativo é mantido no repositório privado principal do produto e publicado separadamente no Firebase Hosting.
 
+Desenvolvido por [Shiau Lon](https://github.com/shiaulon).
