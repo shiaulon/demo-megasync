@@ -70,6 +70,7 @@ node_modules/
 .firebase/
 public/
 demo/
+megasync-demo/
 firebase-debug.log
 firebase-debug.*.log
 .firebaserc
