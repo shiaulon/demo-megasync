@@ -13,12 +13,16 @@ O MegaSync EMP reúne relacionamento com clientes, projetos, documentos, agenda 
 | Área | Exemplo disponível na demo |
 | --- | --- |
 | Painel Geral | Prioridades, compromissos e indicadores operacionais |
+| Dashboard | Indicadores de atendimentos Remoto e Campo, já selecionados na abertura |
 | Clientes | Cadastros fictícios e relacionamento comercial |
+| Relatórios Analíticos | Leads por origem, região, assunto e resultado comercial |
 | Projetos | Quadro com cartões em diferentes etapas |
 | Agenda | Reuniões, visitas e validações planejadas |
 | GED | Documentos de exemplo e seus estados de acompanhamento |
 | Implantações | Projeto fictício organizado em ondas e atividades |
-| Estoque | Itens e quantidades ilustrativas |
+| Histórico | Atendimentos, formulários e execuções de fluxos |
+| Estoque | Itens, saldos mínimos e movimentações ilustrativas |
+| Financeiro | Receitas, despesas e vendas sintéticas do CRM |
 
 Para um passeio rápido, abra o Painel Geral, entre em Clientes para conhecer os cadastros e depois navegue até Projetos e Implantações. É possível experimentar alterações nos recursos que funcionam offline; elas ficam apenas no navegador usado na visita.
 
@@ -34,6 +38,18 @@ As imagens abaixo são da demonstração com dados sintéticos. Clique para ver 
 | --- | --- |
 | [![Projetos](assets/screenshots/projetos.jpg)](assets/screenshots/projetos.jpg) | [![Implantação](assets/screenshots/implantacoes.jpg)](assets/screenshots/implantacoes.jpg) |
 
+| Histórico de Campo | Formulários |
+| --- | --- |
+| [![Visitas em campo](assets/screenshots/historico-campo.jpg)](assets/screenshots/historico-campo.jpg) | [![Formulários](assets/screenshots/formularios.jpg)](assets/screenshots/formularios.jpg) |
+
+| Dashboard Remoto e Campo | Relatório Analítico de Clientes |
+| --- | --- |
+| [![Dashboard](assets/screenshots/dashboard.jpg)](assets/screenshots/dashboard.jpg) | [![Relatório Analítico](assets/screenshots/relatorio-crm.jpg)](assets/screenshots/relatorio-crm.jpg) |
+
+| Estoque | Financeiro |
+| --- | --- |
+| [![Estoque](assets/screenshots/estoque.jpg)](assets/screenshots/estoque.jpg) | [![Financeiro](assets/screenshots/financeiro.jpg)](assets/screenshots/financeiro.jpg) |
+
 ## O problema que o produto resolve
 
 Quando clientes, tarefas, documentos e prazos vivem em ferramentas separadas, o histórico se fragmenta e o acompanhamento depende de planilhas ou mensagens avulsas. O MegaSync conecta esses objetos: um cliente pode ter oportunidades, tarefas, documentos e uma implantação relacionados; os responsáveis acompanham o trabalho pelas telas operacionais e pelos indicadores.
@@ -44,7 +60,7 @@ O produto completo inclui controle de acesso por organização e cargo, fluxos d
 
 - A interface é uma cópia do aplicativo Flutter Web, publicada em um projeto Firebase separado do ambiente de produção.
 - O visitante entra anonimamente, sem criar uma conta pessoal.
-- Os cadastros de exemplo são sintéticos e versionados por mês, para manter a apresentação atualizada.
+- A cada novo mês, a demo prepara novamente clientes, leads, atendimentos e demais exemplos dos seis meses anteriores. Assim, o visitante encontra histórico e indicadores preenchidos independentemente do mês em que acessar.
 - O Firestore da demo trabalha com a rede desativada; alterações feitas durante a visita permanecem no armazenamento local do navegador, sem gravar dados de negócio no banco remoto.
 - Regras do projeto de demonstração negam leitura e escrita remotas no Firestore como segunda barreira.
 - Em navegação privada, o navegador pode apagar as alterações locais ao encerrar a sessão.
